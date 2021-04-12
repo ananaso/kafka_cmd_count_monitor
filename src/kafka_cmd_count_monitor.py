@@ -1,8 +1,9 @@
 #!/usr/bin/env python3
 
+import sys
 from kafka import KafkaConsumer
 
-intopic = 'cosmos_out'
+intopic = 'cosmos-out'
 TTC_TYPE = 'COSMOS_SIM_COMMAND'
 bootstrap = 'esnode01.has.com:9092'
 #bootstrap = 'esnode02.has.com:9092' # alt bootstrap
